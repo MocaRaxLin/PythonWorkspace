@@ -5,7 +5,7 @@ dataX_array = []
 dataY_array = []
 
 #input file
-file = open('plan data.txt','r',encoding='UTF-8')
+file = open('txtfile/plan data.txt','r',encoding='UTF-8')
 i = 0
 while True:
     strDA = file.readline()
@@ -43,4 +43,3 @@ for a, b in zip(dataX_array, dataY_array):
     print(dollarPerMB)
     dollarPerMB.clear()
 
-#plot
